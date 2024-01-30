@@ -1,0 +1,4 @@
+.idea/
+.app_logs/
+.venv/
+settings_test.cfg
