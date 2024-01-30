@@ -4,11 +4,17 @@ This application is intended to simply copy a directory into a user-specified ba
 # Install instructions
 Pull source code, create and activate a virtual environment
 
+```commandline
 python -m venv venv
-source venv/bin/activate   # On Windows: .\venv\Scripts\activate
+source venv/bin/activate   
+(if on Windows: .\venv\Scripts\activate)
+```
+then
 
+```commandline
 pip install -r requirements.txt
 pip install .
+```
 
 For Palworld:
 
@@ -29,4 +35,14 @@ Configure your settings per settings.cfg
 
 Run program with:
 
+```commandline
 python main.py
+```
+
+
+Next time you run the program simply navigate to project directory and do:
+
+```commandline
+.\venv\Scripts\activate
+python main.py
+```
